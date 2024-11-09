@@ -1,0 +1,4 @@
+gateway.svk.jp
+www.awin1.com
+cc-api-data.adobe.io
+sstats.adobe.com
