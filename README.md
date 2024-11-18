@@ -1,8 +1,11 @@
-Project Repository Structure
+Basic Folder Structure
 
-- Hardware    — contains the KiCAD Project, Schematics & Layout and Project Libraries
-- Firmware    — contains any software developed for the Hardware
-- Docs        — contains any data sheets or documentations
-- Production  — contains the gerber files, BOM or anything required by the fabrication houses
-- Simulation  — contains any simulation files and generated results
-- CAD         — contains the 3D models and mechanical designs for enclosures or support
+- src Folder: The source code folder! However, in languages that use headers (or if you have a framework for your application) don’t put those files in here.
+- test Folder: Unit tests, integration tests… go here.
+- .config Folder: It should local configuration related to setup on local machine.
+- .build Folder: This folder should contain all scripts related to build process (PowerShell, Docker compose…).
+- dep Folder: This is the directory where all your dependencies should be stored.
+- doc Folder: The documentation folder
+- res Folder: For all static resources in your project. For example, images.
+- samples Folder: Providing “Hello World” & Co code that supports the documentation.
+- tools Folder: Convenience directory for your use. Should contain scripts to automate tasks in the project, for example, build scripts, rename scripts. Usually contains .sh, .cmd files for example.
