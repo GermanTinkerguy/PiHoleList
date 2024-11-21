@@ -1,3 +1,11 @@
+/*
+ * Whitelist
+ *
+ * Created: 2024
+ * Author : Oliver
+ */
+
+
 gateway.svk.jp
 www.awin1.com
 cc-api-data.adobe.io
