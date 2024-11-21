@@ -1,3 +1,11 @@
+/*
+ * Blacklist
+ *
+ * Created: 2024
+ * Author : Oliver
+ */
+
+
 widgets.pinterest.com
 analyticsengine.s3.amazonaws.com
 affiliationjs.s3.amazonaws.com
